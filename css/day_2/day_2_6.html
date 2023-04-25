@@ -1,0 +1,35 @@
+<!-- css단위 : 미디어 쿼리 -->
+<!-- 미디어 쿼리 : CSS에서 사용되는 반응형 디자인 기술 중 하나로, 
+    특정 미디어(화면, 프린트 등)의 크기나 방향 등을 검사하여 스타일을 변경하는 것-->
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: white;
+        }
+
+        @media (max-width: 768px) {
+
+            /* 768px 이하인 경우 */
+            body {
+                background-color: lightblue;
+            }
+        }
+
+        @media (min-width: 769px) {
+
+            /* 769px 이상인 경우 */
+            body {
+                background-color: lightgreen;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Media Query Example</h1>
+    <p>CSS에서 미디어 쿼리를 사용한 예입니다.</p>
+</body>
+
+</html>

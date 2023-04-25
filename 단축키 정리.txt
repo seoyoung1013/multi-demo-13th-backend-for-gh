@@ -1,0 +1,19 @@
+Visual Studio Code 주석 단축키
+
+
+Ctrl + / : 한줄 주석 처리 / 해제
+Ctrl + K + C : 주석 지정
+Ctrl + K + U : 주석 해제
+shift + alt + f : 자동 들여쓰기 단축키
+! + tab : 기본 생성
+div.jeff : 태그+클래스명 생성
+shift + alt + down키 : 아래에 줄 복사
+shift + alt + up : 위에 줄 복사
+
+
+<단축키 설정>
+ctrl+k+s
+설정창 열기
+원하는 단축키 입력
+실행할 명령어 입력
+설정저장은 enter
